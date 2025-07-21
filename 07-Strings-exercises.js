@@ -22,10 +22,10 @@ en varias líneas.`;
 console.log(textoVariasLineas);
 
 // 6. Interpola el valor de una variable en una cadena de texto y muestra el resultado por consola.
-console.log(`Hobbies de Ramiro: ${cadena1}`);
+console.log(`Hobbies de Ramiro: ${cadena1}`); //'Hobbies de Ramiro: Me gusta Harry Potter'
 
 // 7. Reemplaza todos los espacios en blanco de una cadena de texto por guiones
-console.log(cadena1.replace(/ /g, "-"));
+console.log(cadena1.replace(/ /g, "-")); //'Me-gusta-Harry-Potter'
 
 // 8. Comprueba si una cadena de texto contiene una palabra específica y muestra el resultado por consola.
 console.log(cadena2.includes("Anillos")); // true, verifica si "Anillos" está en el texto
